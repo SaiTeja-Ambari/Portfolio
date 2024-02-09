@@ -1,6 +1,10 @@
 import React from 'react';
 import './Header.css';
 import ProfilePic from '../images/syracuse.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FaGithub } from 'react-icons/fa';
+import { IoIosDocument } from 'react-icons/io';
 
 const Header = () => {
   return (
@@ -13,9 +17,12 @@ const Header = () => {
         <div className='contact-info'>
         
         <p>
-          <a href="https://www.linkedin.com/in/sai-teja-ambari/" target="_blank" rel="noopener noreferrer">LinkedIn</a>  
-          <a href="https://github.com/SaiTeja-Ambari" target="_blank" rel="noopener noreferrer"> GitHub</a> 
-          <a href="https://drive.google.com/file/d/1jq-RPaWpoVl7d7Gv96RviZpzbhmH9Dzl/view?usp=sharing" target="_blank">Resume</a> 
+          <a href="https://www.linkedin.com/in/sai-teja-ambari/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>  
+          <a href="https://github.com/SaiTeja-Ambari" target="_blank" rel="noopener noreferrer">         
+          <FaGithub size={30} />
+</a> 
+          <a href="https://drive.google.com/file/d/1jq-RPaWpoVl7d7Gv96RviZpzbhmH9Dzl/view?usp=sharing" target="_blank">      <IoIosDocument size={30} />
+</a> 
         
         </p>
         </div>
