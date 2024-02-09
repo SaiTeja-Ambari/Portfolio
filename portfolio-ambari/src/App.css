@@ -1,0 +1,9 @@
+
+:root {
+  --gradient-start: #25243dbf;
+  --gradient-end: #F0F8FF;
+}
+
+.App {
+  background-image: linear-gradient(to bottom right, var(--gradient-start), var(--gradient-end));
+}

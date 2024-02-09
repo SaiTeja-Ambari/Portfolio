@@ -1,0 +1,57 @@
+/* WorkExperience.css */
+
+.work-experience-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    color: #333;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .work-experience-section h2 {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 30px;
+    text-align: left;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .experience {
+    margin-bottom: 20px;
+    
+  }
+  
+  .experience h3 {
+    color: #007bff;
+    margin-right: 40px;
+    
+  }
+  
+  .experience p {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .experience ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  .experience ul li {
+    margin-bottom: 5px;
+    color: #555;
+  }
+  .experience-header {
+    display: flex;
+    align-items: center; 
+  }
+  .experience-header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px; 
+  }
