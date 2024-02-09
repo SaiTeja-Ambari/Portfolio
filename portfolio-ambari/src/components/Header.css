@@ -1,44 +1,32 @@
 .header {
-    
-        max-width: 800px;
-        margin: auto;
-        padding: 40px;
-        color: #333;
-        background-color: #ffffff;
-        border: 1px solid #eaeaea;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        display: flex;
-    
-    
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    width: 100vw; /* Set width to 100% of the viewport width */
+    height: 100vh; /* Set height to 100% of the viewport height */
+    margin: auto;
+    padding: 0; 
+    background-image: linear-gradient(to bottom right, var(--gradient-start), var(--gradient-end)); /* Example background */
   }
+  
   
   .profile-pic {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     margin-right: 20px;
+    margin-top: 90px;
   }
 .info{
     margin-top: 10px;
 }
-  .info h1 {
-    margin: 0;
-    font-size: 24px;
+ 
+  .contact-info a {
+    color: #007bff; /* Color for links */
+    text-decoration: none; /* Removes underline from links */
+    display: block; /* Stack items vertically */
+    
   }
   
-  .info p {
-    margin: 5px 0;
-    font-size: 16px;
+  .contact-info a:hover {
+    text-decoration: underline; /* Adds underline on hover for better interaction feedback */
   }
-  
-  .info a {
-    color: #007bff;
-    text-decoration: none;
-    margin-left: 5px;
-  }
-  
-  .info a:hover {
-    text-decoration: underline;
-  }
-  

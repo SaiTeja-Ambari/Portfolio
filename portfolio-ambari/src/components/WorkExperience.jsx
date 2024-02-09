@@ -40,7 +40,7 @@ const WorkExperience = () => {
   ];
 
   return (
-    <div className="work-experience-section">
+    <div className="work-experience-section" id="work-experience">
       <h2>Work Experience</h2>
       {experiences.map((experience, index) => (
         <div key={index} className="experience">
@@ -65,9 +65,7 @@ const WorkExperience = () => {
           </ul>
         </div>
       ))}
-      <div id="projects">
-  {/* Projects content here */}
-</div>
+     
 
     </div>
   );
