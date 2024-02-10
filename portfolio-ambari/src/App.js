@@ -4,6 +4,7 @@ import Education from './components/Education';
 import WorkExperience from './components/WorkExperience';
 import Header from './components/Header';
 import Nav from './components/Nav';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className='sections'>
       <Header></Header>
       <WorkExperience></WorkExperience>
+      <Skills></Skills>
       <Education></Education>
       
       </div>
