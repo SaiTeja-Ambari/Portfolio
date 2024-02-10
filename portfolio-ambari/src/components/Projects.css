@@ -1,0 +1,45 @@
+/* Projects.css */
+.projects-section {
+  margin: auto;
+  padding: 40px;
+  color: #333;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.projects-section h2{
+    margin-top: 60px;
+}
+.project {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex; /* Make this a flex container */
+  flex-direction: row; /* Align children horizontally */
+  align-items: center; /* Align children vertically */
+  margin-bottom: 20px; /* Add some space between the project entries */
+  gap: 20px;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.project p {
+  margin: 10px 0 0;
+  line-height: 1.6;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-image {
+  width: 150px; /* Adjust the width as needed */
+  height: auto; /* Keep the aspect ratio */
+  border-radius: 10px;
+}

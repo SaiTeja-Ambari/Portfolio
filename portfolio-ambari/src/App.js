@@ -5,6 +5,7 @@ import WorkExperience from './components/WorkExperience';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <WorkExperience></WorkExperience>
       <Skills></Skills>
       <Education></Education>
+      <Projects></Projects>
       
       </div>
     </div>

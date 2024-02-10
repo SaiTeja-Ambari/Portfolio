@@ -1,64 +1,71 @@
 /* Education.css - Modern and Minimalist */
 
 .education-section {
-    max-width: 800px;
-    margin: auto;
-    padding: 40px;
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+  color: #333;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.education-section h2 {
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 30px;
+  text-align: left;
+  border-bottom: 2px solid #007bff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.university {
+  margin-bottom: 25px;
+}
+
+.university h3 {
+  font-size: 22px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.university p {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0 20px 0;
+}
+
+.university ul {
+  display: flex;
+  flex-direction: row; /* This will lay out the children (li elements) in a horizontal row */
+  flex-wrap: wrap; /* Optional: Allows the list items to wrap into the next line if there isn't enough space */
+  padding: 0; /* Removes default padding */
+  list-style-type: none; /* Removes default list item bullets */
+}
+
+.university ul li {
+  align-items: center;
+  background-color: #f0f0f0;
+  margin-right: 8px; /* Adjusts spacing between list items; use margin-bottom if wrapping */
+  margin-bottom: 8px; /* Spacing between rows if they wrap */
+  color: #495057;
+  padding: 8px 16px;
+    background-color: #f0f0f0;
     color: #333;
-    background-color: #ffffff;
-    border: 1px solid #eaeaea;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  }
-  
-  .education-section h2 {
-    font-size: 28px;
-    color: #222;
-    margin-bottom: 30px;
-    text-align: left;
-    border-bottom: 2px solid #007bff;
-    display: inline-block;
-    padding-bottom: 5px;
-  }
-  
-  .university {
-    margin-bottom: 25px;
-  }
-  
-  .university h3 {
-    font-size: 22px;
-    color: #007bff;
-    margin-bottom: 10px;
-  }
-  
-  .university p {
-    font-size: 16px;
-    color: #555;
-    margin: 5px 0 20px 0;
-  }
-  
-  .university ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .university ul li {
-    background-color: #f8f9fa;
-    margin-bottom: 8px;
-    padding: 10px;
     border-radius: 5px;
-    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
-    font-size: 14px;
-    color: #495057;
-  }
-  .university-header {
-    display: flex;
-    align-items: center; 
-  }
-  
-  .university-header img {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px; 
-  }
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.university-header {
+  display: flex;
+  align-items: center;
+}
+
+.university-header img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
