@@ -49,6 +49,33 @@ const Projects = () => {
               <h3>{project.name}</h3>
               <p>{project.description}</p>
             </div>
+            {index === 1 && (
+              <div className="navigation-container">
+                <a
+                  href="https://github.com/SaiTeja-Ambari/TicketManagementSystem"
+                  className="nav-link"
+                >
+                  Code
+                </a>
+              </div>
+            )}
+
+            {index === 3 && (
+              <div className="navigation-container">
+                <a
+                  href="https://game-hub-ambari-pt98hmg9h-saiteja-ambaris-projects.vercel.app/"
+                  className="nav-link"
+                >
+                  Demo
+                </a>
+                <a
+                  href="https://github.com/SaiTeja-Ambari/game-hub"
+                  className="nav-link"
+                >
+                  Code
+                </a>
+              </div>
+            )}
           </div>
         ))}
       </div>

@@ -1,38 +1,44 @@
 .header {
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    width: 100vw; /* Set width to 100% of the viewport width */
-    height: 100vh; /* Set height to 100% of the viewport height */
-    margin: auto;
-    padding: 0; 
-    background-image: linear-gradient(to bottom right, var(--gradient-start), var(--gradient-end)); /* Example background */
-  }
-  
-  
-  .profile-pic {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-right: 20px;
-    margin-top: 90px;
-  }
-.info{
-    margin-top: 10px;
+  display: flex;
+  flex-direction: column; /* Keep items vertically stacked */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  padding: 0;
+  background-image: linear-gradient(to bottom right, var(--gradient-start), var(--gradient-end));
 }
- 
-  .contact-info a {
-    color: #007bff; /* Color for links */
-    text-decoration: none; /* Removes underline from links */
-    display: block; /* Stack items vertically */
-    
-  }
-  
-  .contact-info a:hover {
-    text-decoration: underline; /* Adds underline on hover for better interaction feedback */
-  }
 
-  .black-icon {
-    color: white;
-    margin-top: 3px;
-  }
-  
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 20px; /* Adjusted for visual balance */
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content */
+  margin-top: 20px; /* Space between profile pic and info */
+  max-width: 700px;
+}
+
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 15px; /* Space between icons */
+}
+
+.black-icon:hover {
+  transform: scale(1.5);
+}
+
+.black-icon {
+  color: black;
+}
+.about {
+  display: contents;
+}
