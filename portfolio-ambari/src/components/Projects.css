@@ -39,8 +39,8 @@
 }
 
 .project-image {
-  width: 150px; /* Adjust the width as needed */
-  height: auto; /* Keep the aspect ratio */
+  width: 150px; 
+  height: auto; 
   border-radius: 10px;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .nav-link {
-    background-color: #4CAF50; /* Green */
+    background-color: royalblue; 
     border: none;
     color: white;
     padding: 15px 32px;
